@@ -5,6 +5,6 @@ import React from 'react'
 
 export default props => (
     <div className="container">
-        <h1>Teste</h1>
+        <h1>Hello World!</h1>
     </div>
 )

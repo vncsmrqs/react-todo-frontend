@@ -11,7 +11,7 @@ module.exports = {
     },
     devServer: {  //Configuração do WebServer
         port: 8080,
-        content: './public'
+        contentBase: './public'
     },
     resolve: {
         extensions: ['', '.js', '.jsx'], //Extensões que o webpack tem que reconhecer,
